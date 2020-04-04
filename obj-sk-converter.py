@@ -15,6 +15,8 @@ def main():
   if os.path.isfile(f'{file_name}.xml'):
     output_name = input(f'File {file_name}.xml already exists, choose a name '
                         '(or press Enter if you want to overwrite): ')
+  else:
+    output_name = None
   
   with open(f'{file_name}.obj', 'r') as f:
     args     = dict()
