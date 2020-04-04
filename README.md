@@ -1,5 +1,6 @@
 # Bootshuze
-OBJ to XML converter for Spiral Knights
+OBJ to XML converter for Spiral Knights.
+Requires [SpiralSpy](https://www.lucasallegri.xyz/download/spiralspy-1.5.jar) for further model modification.
 
 ## Features
 
