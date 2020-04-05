@@ -84,13 +84,14 @@ def main():
        open('template', 'r') as i:
     print('Writing output.')
     
-    args['min_extent'] = str(min_extent)[1:-1]
+    args['min_extent']  = str(min_extent)[1:-1]
     del min_extent
-    args['max_extent'] = str(max_extent)[1:-1]
+    args['max_extent']  = str(max_extent)[1:-1]
     del max_extent
-    args['indices']    = str(indices)[1:-1]
+    args['indices']     = str(indices)[1:-1]
+    args['indices_end'] = str(max(indices))
     del indices
-    args['vertices']   = ', '.join(vertices)
+    args['vertices']    = ', '.join(vertices)
     del vertices
     
     regex = re.compile(r'(?:{{ )([a-zA-Z_]*)(?: }})')
