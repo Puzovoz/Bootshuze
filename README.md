@@ -1,6 +1,6 @@
 # Bootshuze
 OBJ to XML converter for Spiral Knights.
-Requires [SpiralSpy](https://www.lucasallegri.xyz/download/spiralspy-1.5.jar) for further model modification.
+Requires [SpiralView](https://github.com/lucas-allegri/spiralview/releases) for further model modification.
 
 ## Features
 
@@ -19,7 +19,7 @@ The script will NOT:
   1. Download the latest release, and open either the .exe file or the .py file (the latter requires Python 3 installed).
   1. A console window should appear. When asked, provide the name of the OBJ model inside the script directory.
   1. The script should create an XML file inside the directory.
-  1. With [SpiralSpy](https://www.lucasallegri.xyz/download/spiralspy-1.5.jar) open Resource Editor (Ctrl+R), `File → Import from XML...` and point to the new XML you created with the script. That should provide info to the resource editor.
-  1. That model should now be saved (Ctrl+A) in any directory and opened in the model viewer.
+  1. With [SpiralView](https://github.com/lucas-allegri/spiralview/releases) open Model Viewer, Resource Editor (Ctrl+R), `File → Import from XML...` and point to the new XML you created with the script. That should provide info to the resource editor.
+  1. Save the model (Ctrl+A) in any directory and open in the model viewer.
   
   Congratulations, you've imported a model and can create new mods with new models that never existed in the game before.
